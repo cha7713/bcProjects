@@ -243,10 +243,21 @@
    https://github.com/계정이름/bc_projects.git
  - 로컬 PC에서 프로젝트를 위치한 곳에 다음과 같이 명령
    public
+   $ cd C:\Users\한가람24\Desktop\test_git
    $ git clone https://github.com/계정이름/bc_projects.git
    private
    $ git clone https://ID:PW@github.com/계정이름/bc_projects.git
+ - 폴더 옵션에서 숨김 파일 보기를 하면 .git 폴더를 확인할수 있다
+ - vs code를 오픈하고, bc_projects을 오픈한다
+ - 원소스를 폴더채 신규 위치에 복사 혹은 이동 시킴
+ - vs code의 왼쪽 주메뉴중 3번째 선택
+ - 완류후 vs code를 보면 파일 변화를 감지하게 되고, 
+   node_modules를 제외한 나머지가 잡히면 OK 
+ - 커밋 메시지를 작성 및 커밋 체크 클릭
+----------------------------------------------------------------------
 
+$ git config --global user.name "계정이름"
+$ git config --global user.email "계정이메일"
 
 
 
